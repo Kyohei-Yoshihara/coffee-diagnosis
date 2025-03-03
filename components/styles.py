@@ -4,22 +4,22 @@ def apply_css():
     st.markdown("""
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400&display=swap');
-        .stApp {
-            background-color: #FAF3E0;
-            font-family: 'Roboto', sans-serif;
-            color: #3E2723;
-            padding: 20px;
+        
+        html, body, [data-testid="stAppViewContainer"] {
+            background-color: #FAF3E0 !important;
+            font-family: 'Roboto', sans-serif !important;
+            color: #3E2723 !important;
         }
         .title {
             font-size: 60px !important;
             font-weight: bold !important;
-            font-family: 'Playfair Display', serif;
-            color: #5D4037;
+            font-family: 'Playfair Display', serif !important;
+            color: #5D4037 !important;
             text-align: center;
             padding: 20px;
         }
         .question-box {
-            background-color: rgba(255, 248, 220, 0.9);
+            background-color: rgba(255, 248, 220, 0.9) !important;
             padding: 20px;
             border-radius: 10px;
             margin: 10px 0;
